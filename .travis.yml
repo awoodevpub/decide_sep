@@ -8,7 +8,7 @@ env:
 before_install:
 - cd docker
 - docker-compose up -d
-/ cd ..
+- cd ..
 
 install: 
 - pip install -r ../requirements.txt
