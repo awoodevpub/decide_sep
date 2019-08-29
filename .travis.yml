@@ -14,8 +14,8 @@ install:
 
 before_script:
  - cp local_settings.travis.py local_settings.py
- - psql -c "create user decide with password 'decide'" 
- - psql -c "create database decide owner decide"
+ - psql -c "create user decide with password 'decide'" -U postgres
+ - psql -c "create database decide owner decide" -U postgres
  - python manage.py migrate
 
 script: 
