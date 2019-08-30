@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/awoodevpub/decide_sep.svg?branch=master)](https://travis-ci.org/awoodevpub/decide_sep)
+
 Plataforma voto electrónico educativa
 =====================================
 
