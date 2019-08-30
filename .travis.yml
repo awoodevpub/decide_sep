@@ -25,7 +25,7 @@ before_script:
 - cd ..
 
 script: 
-- docker exec -ti decide_web ./manage.py test
+- docker exec -ti decide_web python manage.py test
 
 services:
 - postgresql
